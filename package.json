@@ -1,0 +1,22 @@
+{
+  "name": "piazza-bot-eecs280",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "~4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mparigi/piazza-bot-eecs280.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/mparigi/piazza-bot-eecs280/issues"
+  }
+}
