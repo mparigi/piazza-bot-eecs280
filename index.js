@@ -5,10 +5,10 @@ var app = express();
 
 app.use(bodyParser.json());
 
-app.get("/", function(req, res) { 
+app.post("/", function(req, res) { 
 	console.log(req.body);
 	res.setHeader('Content-Type', 'application/json');
-    res.end(JSON.stringify({ "challenge": {} }));
+    res.end(JSON.stringify({ "challenge": req.body.challenge }));
 });
 
 var port = process.env.PORT || 5000;
